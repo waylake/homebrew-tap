@@ -1,6 +1,6 @@
 cask "four-eight" do
-  version "0.2.0"
-  sha256 "466f1329e5d6204679e381d5293d47f3930a3354631a236cc0a825a921a312de"
+  version "0.3.0"
+  sha256 "6ac0534e8f2c6bde6e0cc904ed70811731f758967e60d6c6fc917202c9753d35"
 
   url "https://github.com/waylake/four-eight/releases/download/v#{version}/FourEight.zip"
   name "FourEight"
