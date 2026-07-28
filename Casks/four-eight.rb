@@ -7,7 +7,8 @@ cask "four-eight" do
   desc "Four Pillars of Destiny reading, computed and interpreted on device"
   homepage "https://github.com/waylake/four-eight"
 
-  depends_on macos: ">= :sequoia"
+  # 문자열 비교 형태(">= :sequoia")는 Homebrew 6에서 deprecated다.
+  depends_on macos: :sequoia
 
   # 앱이 Sparkle로 스스로 갱신하므로 brew가 버전을 앞지르려 하지 않게 한다.
   auto_updates true
