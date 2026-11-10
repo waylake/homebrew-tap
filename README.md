@@ -11,6 +11,7 @@ brew tap waylake/tap
 | Cask | 설명 |
 |---|---|
 | `four-eight` | [FourEight](https://github.com/waylake/four-eight) — 사주 명식 계산과 온디바이스 해석 |
+| `reel` | [Reel](https://reel.waylake.com/) — 메뉴 막대 동영상 다운로더 (yt-dlp + ffmpeg) |
 
 ## 왜 공식 homebrew-cask가 아닌가
 
